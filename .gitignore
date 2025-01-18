@@ -10,3 +10,5 @@ i18n/*
 gunicorn_conf.py
 sql_app.db
 log/*
+.env.*
+.venv
