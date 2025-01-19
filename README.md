@@ -2,14 +2,15 @@
 roboflow GUI detection sample
 
 
-こちらのモデルを利用してGUI認識できるかのサンプル
+(こちらのモデルを利用してGUI認識できるかのサンプル)
+
 https://universe.roboflow.com/huawei-tz75a/gui-detection-uz7l4/model/1?fbclid=IwY2xjawH2ykJleHRuA2FlbQIxMAABHVprYt7beW8aui8Zu4uxkH28Y1AkFt4oBr44OSlHPBjTZLwFHUzVTq93kw_aem_rVSdScd9puaJUfijazLn4w
 
 **RESULT**
 
-![STRAVA](/STRAVA_output_image.png )
+![STRAVA](/results/STRAVA_v3_output_image.png )
 
-![Grab](/Grab_output_image.png)
+![Grab](/results/Grab_v3_output_image.png)
 
 
 
@@ -26,7 +27,6 @@ source .venv/bin/activate
 
 >pip install roboflow 
 ```
-
 
 
 

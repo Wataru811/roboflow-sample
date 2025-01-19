@@ -104,9 +104,9 @@ CLIENT = InferenceHTTPClient(
     #api_key="oVM4qiq0AT0M3VibXoVb"
     api_key=API_KEY
 )
-#img_url = "https://specrc.check-mate.net/view/675954787275029f36ee79b4/675954787275029f36ee79b4_G2.webp"
-img_url = "https://specrc.check-mate.net/view/675954787275029f36ee79b4/675954787275029f36ee79b4_st9.webp"
-result = CLIENT.infer(img_url, model_id="gui-detection-uz7l4/1")
+img_url = "https://specrc.check-mate.net/view/675954787275029f36ee79b4/675954787275029f36ee79b4_G2.webp"
+#img_url = "https://specrc.check-mate.net/view/675954787275029f36ee79b4/675954787275029f36ee79b4_st9.webp"
+result = CLIENT.infer(img_url, model_id="gui-detection-uz7l4/3")
 print(result)
 #json_result = result.json()
 #print(json_result)
